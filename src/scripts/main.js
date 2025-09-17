@@ -4,9 +4,8 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   const body = document.body;
   const orange = document.createElement('div');
 
-  orange.style.position = 'fixed';
-  orange.style.top = posTop;
-  orange.style.right = posRight;
+  orange.style.top = posTop + 'px';
+  orange.style.right = posRight + 'px';
 
   const orangeTitle = document.createElement('h2');
 
